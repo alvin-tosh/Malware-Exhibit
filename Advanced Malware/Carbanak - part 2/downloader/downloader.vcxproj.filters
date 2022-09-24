@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="config">
+      <UniqueIdentifier>{342712ea-a8c4-41cf-851e-7c2e3b6b4e1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{a0f25558-313a-47a8-8cbd-4b1cd5f05ed7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source">
+      <UniqueIdentifier>{f91942d8-16bf-4c2a-874f-cae6f29082f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="config\debug">
+      <UniqueIdentifier>{44d85f42-bda1-4e22-acfc-98e8338d4e67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="config\full">
+      <UniqueIdentifier>{0349b7d6-ff2c-448b-9eab-25daac195708}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="config\debug\config.h">
+      <Filter>config\debug</Filter>
+    </ClInclude>
+    <ClInclude Include="config\full\config.h">
+      <Filter>config\full</Filter>
+    </ClInclude>
+    <ClInclude Include="config\builder.h">
+      <Filter>config</Filter>
+    </ClInclude>
+    <ClInclude Include="include\main.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\task.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\adminka.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\service.h">
+      <Filter>include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="source\main.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\config.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\task.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\adminka.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\service.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
