@@ -1,0 +1,7 @@
+FormGrabber.cpp(1): Error! E059: col(10) unable to open 'system.h'
+FormGrabber.cpp(2): Error! E059: col(10) unable to open 'core\sniffer.h'
+FormGrabber.cpp(3): Error! E059: col(10) unable to open 'core\file.h'
+FormGrabber.cpp(4): Error! E059: col(10) unable to open 'Manager.h'
+FormGrabber.cpp(16): Error! E336: col(21) declaration specifiers are required to declare 'DWORD'
+FormGrabber.cpp(16): Error! E006: col(14) syntax error; probable cause: missing ';'
+FormGrabber.cpp(18): Error! E498: col(18) syntax error before 'hash'; probable cause: incorrectly spelled type name

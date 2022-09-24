@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="source">
+      <UniqueIdentifier>{40b892d0-257a-47d3-9427-8c57e2c869e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{33dd5c01-b203-43ec-848f-cd415f38a16b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="config">
+      <UniqueIdentifier>{07a6a388-eab6-429c-b2ed-bb233a77d070}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="config\full">
+      <UniqueIdentifier>{2fb7e8d3-1e07-4eca-90bc-3c9af4c79c92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="config\debug">
+      <UniqueIdentifier>{91d46f61-5c35-4271-971c-5df35fd9fc15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\system">
+      <UniqueIdentifier>{40f25726-a7e3-42c1-b012-5c7005250e90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\other">
+      <UniqueIdentifier>{576cb686-3b13-4d9f-b77f-c0ccd872e055}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\plugins">
+      <UniqueIdentifier>{24deb87d-07f8-4d55-b756-07a06eba49b4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\main.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\AdminPanel.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="config\builder.h">
+      <Filter>config</Filter>
+    </ClInclude>
+    <ClInclude Include="config\full\config.h">
+      <Filter>config\full</Filter>
+    </ClInclude>
+    <ClInclude Include="config\debug\config.h">
+      <Filter>config\debug</Filter>
+    </ClInclude>
+    <ClInclude Include="include\keylogger.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\service.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\VideoServer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\task.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Manager.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\sandbox.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\MonitoringProcesses.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tools.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\system.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\other.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\info.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\plugins.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\errors.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\AV.h">
+      <Filter>include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="source\main.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\rootkit.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\AdminPanel.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\explorer_loop.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\config.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Manager.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\keylogger.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\service.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\VideoServer.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\abstract.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\task.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\sandbox.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\MonitoringProcesses.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\tools.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\system\system.cpp">
+      <Filter>source\system</Filter>
+    </ClCompile>
+    <ClCompile Include="source\other\mimikatz.cpp">
+      <Filter>source\other</Filter>
+    </ClCompile>
+    <ClCompile Include="source\system\ifobs.cpp">
+      <Filter>source\system</Filter>
+    </ClCompile>
+    <ClCompile Include="source\other\rdp_patch.cpp">
+      <Filter>source\other</Filter>
+    </ClCompile>
+    <ClCompile Include="source\other\secure_lsa.cpp">
+      <Filter>source\other</Filter>
+    </ClCompile>
+    <ClCompile Include="source\other\GetProxy.cpp">
+      <Filter>source\other</Filter>
+    </ClCompile>
+    <ClCompile Include="source\info.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\plugins\plugins.cpp">
+      <Filter>source\plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="source\plugins\TrustedHosts.cpp">
+      <Filter>source\plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="source\other\FindFiles.cpp">
+      <Filter>source\other</Filter>
+    </ClCompile>
+    <ClCompile Include="source\plugins\FindOutlookFiles.cpp">
+      <Filter>source\plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="source\other\vnc.cpp">
+      <Filter>source\other</Filter>
+    </ClCompile>
+    <ClCompile Include="source\plugins\MonitoringFile.cpp">
+      <Filter>source\plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="source\other\ListProcess.cpp">
+      <Filter>source\other</Filter>
+    </ClCompile>
+    <ClCompile Include="source\system\FormGrabber.cpp">
+      <Filter>source\system</Filter>
+    </ClCompile>
+    <ClCompile Include="source\wincmd.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\plugin.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\AV.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ReflectiveLoader.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
