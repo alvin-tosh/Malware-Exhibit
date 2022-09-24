@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<cfg>
+  <Port>700</Port>
+  <PortClient>800</PortClient>
+  <InfoDomen>
+  </InfoDomen>
+  <InfoPsw>
+</InfoPsw>
+  <Password />
+</cfg>
