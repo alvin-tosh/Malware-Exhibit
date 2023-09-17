@@ -1,4 +1,4 @@
-FROM ghcr.io/ronaldsonbellande/sph_tools:master
+FROM ronaldsonbellande/sph_tools
 
 ARG VERSION_GIT_BRANCH=master
 ARG VERSION_GIT_COMMIT=HEAD
